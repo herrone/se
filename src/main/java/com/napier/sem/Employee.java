@@ -1,46 +1,45 @@
 package com.napier.sem;
 
-import java.sql.ResultSet;
-import java.sql.Statement;
-
-/**
- * Represents an employee
- */
-public class Employee
-{
-    /**
-     * Employee number
-     */
-    public int emp_no;
 
     /**
-     * Employee's first name
+     * Represents an employee
      */
-    public String first_name;
+    public class Employee
+    {
+        /**
+         * Employee number
+         */
+        public int emp_no;
 
-    /**
-     * Employee's last name
-     */
-    public String last_name;
+        /**
+         * Employee's first name
+         */
+        public String first_name;
 
-    /**
-     * Employee's job title
-     */
-    public String title;
+        /**
+         * Employee's last name
+         */
+        public String last_name;
 
-    /**
-     * Employee's salary
-     */
-    public int salary;
+        /**
+         * Employee's job title
+         */
+        public String title;
 
-    /**
-     * Employee's current department
-     */
-    public String dept_name;
+        /**
+         * Employee's salary
+         */
+        public int salary;
 
-    /**
-     * Employee's manager
-     */
-    public String manager;
+        /**
+         * Employee's current department
+         */
+        public String dept_name;
 
-}
+        /**
+         * Employee's manager
+         */
+        public String manager;
+    }
+
+
